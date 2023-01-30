@@ -1,7 +1,4 @@
 <script setup>
-import { ref } from "vue";
-import { createUserWithEmailAndPassword, signInWithEmailAndPassword, getAuth, signInWithPopup, GoogleAuthProvider, signInWithRedirect } from "firebase/auth";
-import { auth } from "../firebase.js"
 import { useUserStore } from "../stores/UserStore";
 
 const userStore = useUserStore();
